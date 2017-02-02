@@ -9,8 +9,8 @@ section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
-.border-bottom {
-  border-bottom: 2px solid rgba(255, 255, 255, .5);
+.border {
+  border-bottom: 3px solid rgba(255, 255, 255, .25);
 }
 
 .btn-ghost {
@@ -19,7 +19,16 @@ section {
   color: #fff;
 }
 
-.btn-ghost:hover {
+.btn:hover {
   background-color: #fff;
   border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border {
+    border-bottom: none;
+    border-right: 4px solid rgba(255, 255, 255, .25);
+  }
+
 }
