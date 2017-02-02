@@ -1,0 +1,13 @@
+html {
+  font-family: Overpass, sans-serif;
+
+  /*color: #fff;*/
+}
+
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
