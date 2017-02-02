@@ -1,7 +1,8 @@
 html {
   font-family: Overpass, sans-serif;
 
-  /*color: #fff;*/
+  color: #fff;
+
 }
 
 section {
@@ -10,4 +11,15 @@ section {
 
 .border-bottom {
   border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+
+.btn-ghost {
+  border-color: rgba(255, 255, 255, .75);
+
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
 }
